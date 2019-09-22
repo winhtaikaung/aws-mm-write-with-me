@@ -1,8 +1,25 @@
+# This is the simple app for presenting the AWS amplify
+
+## Prequesties
+
+1. AWS Account(FreeTier also works)
+2. Node.JS
+3. Be AWESOME
+
+## Applicaiton Stack
+
+1. CloudFormation
+2. DynamoDB
+3. Graphql
+4. AppSync
+5. React
+6. s3
+7. CloudFront
+8. Route53(Optional)
+
 # ✍️ Write with me
 
 A real-time collaborative blog post editor built with GraphQL, React, React Markdown, & AWS AppSync.
-
-This repo goes along with the medium post "How to Build a Real-time Collaborative Markdown Editor with React Hooks, GraphQL & AWS AppSync". Click [here](https://medium.com/open-graphql/how-to-build-a-real-time-collaborative-markdown-editor-with-react-hooks-graphql-aws-appsync-dc0c121683f4) to check it out.
 
 > Try it out at [www.writewithme.dev](https://www.writewithme.dev/#/)
 
@@ -30,21 +47,20 @@ We also have a `clientId` to properly handle GraphQL subscriptions on the client
 
 Deploy this fullstack app with a single click to the Amplify Console:
 
-[![amplifybutton](https://oneclick.amplifyapp.com/button.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/dabit3/write-with-me)
-
+[![amplifybutton](https://oneclick.amplifyapp.com/button.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/winhtaikaung/awsmm-write-with-me)
 
 ### Run locally with the Amplify CLI
 
 1. Clone the repo
 
 ```sh
-git clone https://github.com/dabit3/write-with-me.git
+git clone https://github.com/winhtaikaung/awsmm-write-with-me.git
 ```
 
 2. Change into the directory & install dependencies
 
 ```sh
-cd write-with-me
+cd awsmm-write-with-me
 
 npm install
 ```
